@@ -1,5 +1,5 @@
 {
-  "installCommand": "pnpm install --no-frozen-lockfile",
+  "installCommand": "pnpm install --no-frozen-lockfile --filter \"@workspace/mockup-sandbox...\"",
   "buildCommand": "pnpm --filter @workspace/mockup-sandbox run build",
   "outputDirectory": "artifacts/mockup-sandbox/dist",
   "rewrites": [
